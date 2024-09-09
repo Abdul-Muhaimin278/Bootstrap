@@ -1,0 +1,205 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.carousel-inner img {
+	width: 100%;
+	height: 100vh;
+}
+
+.links {
+	background-color: #f5f5f5;
+}
+
+.btm_links {
+	margin: 50px 0;
+	padding: 30px;
+}
+
+.btm_links h4 {
+	color: #707070;
+}
+
+.btm_links a {
+	color: #707070;
+}
+
+.btm_links a:hover {
+	color: #0011ff;
+	text-decoration: none;
+}
+
+.btm_links p {
+	padding-top: 16px;
+}
+
+footer {
+	height: 100%;
+	margin: 0px 0 0px 0;
+}
+
+/* ...................about part................... */
+
+.about_setting {
+	margin: 0px;
+}
+
+.about_header {
+	height: 100vh;
+	display: block;
+	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+		url(about.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.about_heading {
+	margin-top: 50px !important;
+}
+
+.about_heading1 h2 {
+	font-weight: 600;
+	color: #000;
+	font-size: 40px;
+}
+
+.about_heading1 p {
+	color: #494949;
+	font-size: 20px;
+}
+
+.about_title {
+	margin-top: 140px;
+	color: #fff;
+}
+
+.about_title h1 {
+	font-size: 60px;
+	font-weight: 600;
+}
+
+.our_team {
+	text-align: center;
+	margin: 50px;
+}
+
+.our_team h1 {
+	font-size: 50px;
+	font-weight: 600;
+}
+
+.card {
+	display: block;
+	width: 100%;
+}
+
+.card img {
+	height: 100%;
+	width: 100%;
+}
+
+/* ...................Form part................... */
+
+.contact_body {
+	margin-top: 50px;
+	padding: 0;
+	box-sizing: border-box;
+	height: 100vh;
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+		url(slider2.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	/* position: fixed; */
+}
+
+.form_container {
+	width: 300px;
+	height: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 80px;
+	padding-top: 40px;
+}
+
+form {
+	/* position: fixed; */
+	background: #fff;
+	width: 300px;
+	height: auto;
+	/* display: block; */
+	padding: 20px;
+	border: none;
+	border-radius: 5px;
+}
+
+/* form label{
+    
+} */
+
+#email {
+	width: 100%;
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	outline: none;
+}
+#password {
+	width: 100%;
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	outline: none;
+}
+#text_area {
+	width: 100%;
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	outline-width: 0;
+}
+
+#email:focus,
+#password:focus,
+#text_area:focus {
+	outline: none;
+	outline-width: 0;
+	box-shadow: none;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+}
+
+.form_icons {
+	margin: 10px 0 20px 0;
+}
+
+.form_icons i {
+	padding: 0 27px;
+}
+
+.form_icons1 {
+	transition: 0.4s ease-out;
+	font-size: 25px;
+}
+.form_icons2 {
+	transition: 0.4s ease-out;
+	font-size: 25px;
+}
+.form_icons3 {
+	transition: 0.4s ease-out;
+	font-size: 25px;
+}
+.form_icons1:hover {
+	color: #0866ff;
+}
+.form_icons2:hover {
+	color: #ff0000;
+}
+.form_icons3:hover {
+	color: #404eed;
+}
+/* linear-gradient(#f9ce34, #ee2a7b and #6228d7) */

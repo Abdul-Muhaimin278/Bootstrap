@@ -1,0 +1,379 @@
+*{
+    margin: 0; padding: 0%; box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logoimg{
+    height: 40px;
+}
+
+#menutxt{
+   font-size: 12px;
+   margin: 23px;
+}
+
+#banner{
+    background: url(images/back.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 0;
+}
+
+#bannercontent{
+    width: 600px;
+    height: 100%;
+    display: flex;
+    /* justify-content: space-evenly; */
+    margin-left: 10%;    
+    margin-right: auto;    
+    position: relative;
+}
+
+#bannertext{
+    background: #fff;
+    width: 550px;
+    margin: 80px 0px 80px 0px;
+    padding: 50px 0px 50px 30px;
+    /* z-index: 2; */
+    /* display: inline; */
+}
+
+#bannertext h2{
+    font-size: 20px;
+}
+
+#bannertext p{
+    /* font-size: 15px; */
+    width: 200px;
+    margin-top: 50px;
+}
+
+#bannerimg2{
+    position: absolute;
+    height: 380px;
+    margin-left: 600px;
+    margin-top: 103px; 
+    /* margin-right: 50; */
+}
+
+#bannerimg1{
+    position: absolute;
+    height: 300px;
+    margin-left: 350px;
+    margin-top: 160px;
+    z-index: 5;
+}
+
+/* #bannerimgsetting{
+    margin-top: 100px;
+    position: absolute;
+    margin-left: 300px;
+} */
+
+#line{
+    padding: 0;
+    background-color: #ff9036;
+}
+
+#line p{
+    margin-bottom: 0!important;
+    font-size: 20px;
+    color: white;
+    font-weight: 500;
+}
+
+#about{
+    height: 100%;
+    margin-top: 100px;
+}
+
+#banner2{
+    height: auto;
+    width: 100%;
+    background: url(images/9.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 50px 0;
+}
+
+#banner2text{
+    color: white;
+    width: 40%;
+    margin-left: 150px;
+    padding: 100px 0;
+}
+
+/* #youtube_ref h1 {
+
+} */
+
+#banner3{
+    height: auto;
+    width: 100%;
+    background: url(images/10.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 50px 0;
+}
+
+#banner3text{
+    color: white;
+    width: 40%;
+    margin-left: 150px;
+    padding: 100px 0;
+    /* padding-bottom: 100px; */
+}
+
+#frame{
+    width: auto;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    /* margin-left: auto;
+    margin-right: auto; */
+}   
+
+#review{
+    height: 100%;
+    margin: 100px auto;
+}
+
+#review p{
+    /* width: 60%; */
+    margin: 50px 0;
+}
+
+#revimg2{
+    margin-top: 50px;
+    /* margin-left: 30px; */
+}
+
+#footer{
+    height: auto;
+    width: 100%;
+    background: url(images/footer.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+
+@media (max-width: 992px){
+
+    #bannercontent{
+        width: 400px;
+        height: 100%;
+        display: inline-flex;
+        flex-direction: column;
+        /* justify-content: space-evenly; */
+        align-items: center;
+        margin-left: 25%;    
+        margin-right: auto;    
+        position: relative;
+    }
+    
+    #bannertext{
+        background: #fff;
+        
+        width: auto;
+        margin: 30px 0px 0px 0px;
+        padding: 10px 0px 10px 10px;
+        /* z-index: 2; */
+        display: inline;
+    }
+
+    #bannertext h2{
+        width: 60%;
+    }
+
+    #bannertext p{
+        width: 20%;
+    }
+
+    #bannerimg2{
+        position: relative;
+        height: 300px;
+        width: 200px;
+        margin-left: 00px;
+        margin-top: 20px; 
+    }
+    
+    #bannerimg1{
+        position: absolute;
+        height: 150px;
+        margin-left: 100px;
+        margin-top: 150px;
+        /* margin-bottom: 100px; */
+        z-index: 5;
+    }
+
+}
+
+
+@media (max-width: 768px){
+
+    #navimg1{
+        display: none;
+    }
+
+    #navimg2{
+        display: none;
+    }
+
+    #bannercontent{
+        margin-left: 20%;    
+        margin-right: auto;    
+    }    
+
+    #banner2text{
+        /* width: 60%; */
+        font-size: small;
+        margin-left: 30px;
+        margin-right: 0;
+
+    }
+    
+    #banner3{
+        padding: 0;
+    }
+    
+    #banner3text{
+        /* width: 60%; */
+        /* font-size: small; */
+        margin-left: 30px;
+        margin-right: 0;
+
+    }
+
+}
+
+
+@media (max-width: 576px) {
+
+    #logoimg{
+        height: 30px;
+    }
+
+
+    #menutxt{
+        font-size: 10px;
+        margin: 13px 0;
+    }
+
+    #bannercontent{
+        width: 200px;
+        height: 100%;
+        display: inline-flex;
+        flex-direction: column;
+        /* justify-content: space-evenly; */
+        align-items: center;
+        margin-left: 30%;    
+        margin-right: 10%;    
+    }
+    
+    #bannertext{
+        background: #fff;
+        
+        width: auto;
+        margin: 30px 0px 0px 0px;
+        padding: 10px 0px 10px 10px;
+        /* z-index: 2; */
+        display: inline;
+    }
+
+    #bannertext h2{
+        width: 100%;
+        font-size: 20px;
+    }
+
+    #bannertext p{
+        width: 40%;
+        font-size: 10px;
+    }
+
+    #bannerimg2{
+        position: relative;
+        height: 300px;
+        width: 200px;
+        margin-left: 00px;
+        margin-top: 20px; 
+    }
+    
+    #bannerimg1{
+        position: absolute;
+        height: 100px;
+        margin-left: 100px;
+        margin-top: 150px;
+        /* margin-bottom: 100px; */
+        z-index: 5;
+    }
+
+    #frame{
+        width: 50%;
+        height: 50%;
+    }
+
+    #video{
+        width: 315;
+        height: 177.7777777777777777777777777777px;
+    }
+
+}
+
+
+@media (max-width: 480px){
+
+
+    #menutxt{
+        font-size: 10px;
+        margin: 13px 0;
+    }
+
+    #bannercontent{
+        width: 200px;
+        height: 100%;
+        display: inline-flex;
+        flex-direction: column;
+        /* justify-content: space-evenly; */
+        align-items: center;
+        margin-left: 30%;    
+        /* margin-right: 10%;     */
+        position: relative;
+    }
+
+    #frame{
+        width: 50%;
+        height: 100%;
+    }
+
+
+}
+
+
+@media (max-width: 360px){
+
+
+    #bannercontent{
+
+        margin-left: 15%;    
+        margin-right: auto;       
+    }
+
+
+    #video{
+        width: 177px;
+        height: 100px;
+    }
+
+}

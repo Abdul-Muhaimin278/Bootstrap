@@ -1,0 +1,364 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600;700&family=Lexend+Deca:wght@100;200;300;400;500;600;700&family=Montserrat:wght@400;700&family=Mulish:wght@300&family=Poppins:wght@300;400;600&family=Urbanist:wght@300;400;600;700;800;900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Urbanist", sans-serif;
+}
+
+:root{
+    --bs-dark-color: #1a1d20;
+    --bs-dark-primary:#1c1c1c;
+    --bs-main-color:#fff;
+    --bs-primary-color:#c6c6c6;
+    --bs-secondary-color: #29a9fd;
+    --bs-supporting-color: #C850C0;
+}
+
+h1, h2,h3,h4,h5{
+    font-family: 'Lexend Deca', sans-serif;
+    color: var( --bs-dark-color);
+}
+
+h1{
+    font-size: 3.2rem;
+}
+
+h2{
+    line-height: 4rem;
+    font-weight: 600;
+    font-size: 2.8rem;
+}
+
+p{
+    margin: 0;
+    font-weight: 400;
+    font-size: 1rem;
+    color: var( --bs-dark-color);
+    letter-spacing: 0.07rem;
+    line-height: 1.55rem;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+button,a{
+    font-size: 1.15rem!important;
+    letter-spacing: 0.03rem;
+    word-spacing: .1rem ;
+}
+
+.common-heading{
+    font-size: 2.8rem;
+    font-weight: 500;
+    letter-spacing: 0.01rem!important;
+}
+
+.common-title{
+    margin-bottom: 4.2rem;
+}
+
+.common-section{
+    padding: 0 0 9rem 0;
+}
+
+
+/* ...........navbar style start ...........*/
+
+
+.nav-link{
+    color: var(--bs-main-color);
+}
+
+.nav-link:hover{
+    color: var(--bs-secondary-color);
+}
+
+
+/* ...........hero  section start...........*/
+
+/* .hero-section{
+    height: 100%;
+} */
+
+.hero-section .container{
+    display: grid;
+    place-content: center;
+    height: inherit;
+}
+
+.bg-main{
+    height: 100vh;
+    position: relative;
+}
+
+.bg-color{
+    background-color: var(--bs-dark-primary);
+}
+
+.text-light-grey{
+    color: var(--bs-primary-color);
+}
+
+.bg-theme{
+    color: var(--bs-supporting-color);
+    background-image: none!important;
+    font-weight: bold;
+}
+
+.hero-video--section{
+    height: auto;
+    width: 25rem;
+    border-radius: 2rem;
+}
+
+.custom-shape-divider-bottom-1713786916 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1713786916 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 100px;
+}
+
+.custom-shape-divider-bottom-1713786916 .shape-fill {
+    fill: #FFFFFF;
+}
+
+/* ...........services section start ...........*/
+
+.services-section{
+    padding: 5rem 0 2.5rem 0!important;
+}
+
+.icon-span{
+    width: 2.5rem;
+    height: 2.5rem;
+    background: var(--bs-secondary-color);
+    color: var(--bs-main-color);
+}
+
+.card-box:hover{
+    box-shadow: rgba(149, 157, 165, 0.2) 0 8px 24px;
+}
+
+/* <!-- ...................Digital product showcase  part ................... --> */
+
+
+/* .more-info-section{
+    background-image: linear-gradient(rgba(22,22,22,0.7), rgba(22,22,22,0.9)), url(images/pexels-pixabay-316093.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow: hidden;
+    padding: 6rem 0;
+} */
+
+.more-info-section{
+    padding: 6rem 0;
+}
+.more-info-section .img-section{
+    position: relative;
+}
+
+.more-info-section .img-section img{
+    /* position: absolute;
+    left: 0; */
+    width: 60%;
+}
+
+/* <!-- ...................online mode part ................... --> */
+
+.business-section{
+    padding-top: 3rem;
+}
+
+/* <!-- ...................carousel part ................... --> */
+
+.carousel .card{
+    background-color: #262631;
+    color: var(--bs-main-color);
+    transition: all 0.3s linear;
+}
+
+.carousel-inner .card p{
+    color: var(--bs-main-color);
+}
+
+.carousel-inner .card:hover p{
+    color: #262631;
+}
+
+.carousel-inner .card:hover{
+    background: var(--bs-main-color);
+    color: #262631;
+}
+
+.fa-star{
+    color: #fabb05;
+}
+
+.carousel-indicators{
+    bottom: -8rem;
+}
+
+.carousel-indicators [data-bs-target]{
+    width: .7rem;
+    height: .7rem;
+    background-color: var(--bs-secondary-color);
+}
+
+/* <!-- ...................Experts panel part ................... --> */
+
+.text-grey{
+    color: var(--bs-primary-color);
+}
+
+/* <!-- ...................contact part ................... --> */
+
+.contact-section{
+    position: relative;
+    /* padding-bottom: 0px!important; */
+}
+
+/* form input{
+    color: black;
+} */
+
+.custom-shape-divider-top-1713949461 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1713949461 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 68px;
+}
+
+.custom-shape-divider-top-1713949461 .shape-fill {
+    fill: #FFFFFF;
+}
+
+.contact-section .common-title{
+    padding-top: 3rem;
+}
+    
+.contact-section .form-section{
+    width: 40%;
+}
+
+/* <!-- ...................footer part ................... --> */
+
+.main-footer-section{
+    padding: 0 0 0rem 0;
+    background-color: #222;
+    color: var(--bs-main-color);
+}
+
+.contact-div{
+    background-color: #222;
+}
+
+.icon-div{
+    width: 5rem;
+    height: 5rem;
+    /* background: #1089ff; */
+}
+
+/* <!-- ...................Contact Page part ................... --> */
+
+
+
+
+@media screen and (max-width: 1200px) {
+
+    .hero-video--section{
+        width: 20rem;
+        border-radius: 1rem;
+        /* margin-top: 4rem; */
+    }
+
+}
+
+
+@media screen and (max-width: 992px) {
+    
+    .navbar-toggler{
+        border-color: var(--bs-main-color);
+        fill: var(--bs-main-color); 
+    }
+    
+    .navbar-toggler-icon{
+        color: var(--bs-main-color);
+        background-color: var(--bs-main-color);
+    }
+
+    h1{
+        font-size: 2.4rem;
+    }
+
+    section .common-heading{
+        font-size: 2rem;
+    }
+
+    section .para-width{
+        width: auto;
+    }
+
+    .hero-section{
+        height: 120vh;
+    }
+
+    h2{
+        font-size: 1.8rem;
+        line-height: 2.4rem;
+    }
+
+    .more-info-section{
+        text-align: center;
+    }
+
+}
+
+
+@media screen and (max-width:768.98px) {
+    
+    .hero-section{
+        height: 120vh;
+    }
+
+}
+
+
+@media screen and (max-width: 576px) {
+    
+    .hero-video--section{
+        width: 14rem;
+        /* margin-top: 4rem; */
+    }
+
+}
